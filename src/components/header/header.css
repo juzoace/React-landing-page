@@ -1,0 +1,97 @@
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    z-index: 1000;
+}
+
+.logoDocplanner {
+    width: 179px;
+    height: 24px;
+    margin-left: 50px;
+}
+
+#navLinks {
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+    margin-right: 150px;
+    align-items: center;
+}
+
+#navLinks a {
+    text-decoration: none;
+    color: #ABABAB;
+    font-size: 15px;
+    font-weight: 400;  
+}
+
+#navButton {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #666666;
+    border-radius: 6px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    
+    
+}
+    
+    
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    
+}
+    
+    
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    
+    
+}
+    
+    
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+    
+    
+}
+    
+    
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+   
+}
+    
+    
+@media only screen and (min-width: 1200px) {
+       
+}
+    
+    
+@media print {
+    
+
+    
+}
+    
+    
+@media speech {
+    
+    
+    
+}
+    
+    
+@media only screen and (min-width: 1200px) and (orientation : portrait) {
+    
+    
+}

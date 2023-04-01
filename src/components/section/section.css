@@ -1,0 +1,188 @@
+#section {
+    padding-top: 150px;
+}
+
+#section__buttonContainer {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#section__header {
+    width: 785px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 785px;
+    height: 100px;
+    line-height: 42px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'DM Sans' !important;
+}
+
+#section__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #999999;
+    text-align: center;
+}
+
+.section__button {
+    text-decoration: none;
+    width: 250px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 32px;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+#section__button--enroll {
+    background-color: #1CFFAD;
+    color: #121212;
+}
+
+#section__button--contact {
+    background-color: #333333;
+    color: #ffffff
+}
+
+#section__imageContainer {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+#section__imageOne {
+    position: absolute;
+    width: 251.4px;
+    height: 180px;
+    left: 25px;
+    top: 50px;
+    border-radius: 12px;
+}
+
+#section__imageTwo {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 295px;
+    top: 50px;
+    border-radius: 12px;
+}
+
+#section__ladyPhoto {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 565px;
+    top: 105px;
+    border-radius: 12px;
+}
+
+#section__imageThree {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 1035px;
+    top: 120px;
+}
+
+#section__imageFour {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 765px;
+    top: 50px;
+}
+
+#section__imageFive {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1235px;
+    top: 0px; 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+
+    
+}
+    
+    /* For mobile (landscape) */
+    
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    /* //CSS Code */
+    
+}
+    
+    /* For tablet */
+    
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    
+    /* //CSS Code */
+    
+}
+    
+    /* For small desktop */
+    
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+    
+    /* //CSS Code */
+    
+}
+    
+    /* For typical desktop */
+    
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    
+    /* //CSS Code */
+    
+}
+    
+    /* For large desktop */
+    
+@media only screen and (min-width: 1200px) {
+    
+    /* //CSS Code */
+    
+}
+    
+    /* For printers */
+    
+@media print {
+    
+    /* //CSS Code */
+    
+}
+    
+    /* For screen readers */
+    
+@media speech {
+    
+    /* //CSS Code */
+    
+    }
+    
+    /* Add Orientation as expression */
+    
+    @media only screen and (min-width: 1200px) and (orientation : portrait) {
+    
+    /* //CSS Code */
+    
+    }
