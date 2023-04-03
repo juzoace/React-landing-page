@@ -1,123 +1,517 @@
-#details {
-    position: relative;
-}
-
-#details__header {
-    text-align: center;
-}
-
-#details__card {
-    margin: 20px 40px;  
-    background-color: #121212;
-    width: 1200px;
-    height: 250px;
-    border-radius: 16px;
-    display: flex;
-    gap: 150px;
-    padding: 30px 30px;
-}
-
-#details__card p {
-
-}
-
-#details__item p{
-    color: #F6F6F6;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    width: 274px;
-    height: 36px;
-}
-
-.details__cardItems {
-    display: flex;
-    width: 490px;
-}
-
-#details__item img {
-    margin-right: 20px;
-}
-
-#details__item {
-    display: flex;
-    align-items: center;
-}
-
-#details__amountImage {
-    position: absolute;
-    top: 30px;
-    left: -5px;
-}
-
-#details__amountContainer {
-    position: relative;
-}
-
-#details__enrollButton {
-    position: absolute;
-    top: 100px;
-    left: -50px;
-    width: 250px;
-    height: 60px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    text-align: center;
-    align-items: center;
-    padding-top: 20px;
-    text-decoration: none;
-    color: #121212;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 16px;
-}
-
-#details__enrollContainer {
-    position: relative;
-    /* display: flex;
-    align-items: center; */
-}
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+    #details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    #details__header {
+        text-align: center;
+    }
 
+    #details__card {
+        display: flex;
+        flex-direction: column;
+        background-color: #121212;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+    }
+
+    #details__item {
+        display: flex;
+        align-items: center;
+    }
+
+    #details__item img {
+        margin-right: 20px;
+    }
+
+    #details__item p{
+        color: #F6F6F6;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 274px;
+        height: 36px;
+    }
+
+    #details__amountContainer {
+        margin: 20px 0px;
+    }
+
+    #details__enrollContainer {
+        padding: 30px 0px;
+    }
+
+    #details__enrollButton {
+        padding: 10px 30px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: #121212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    #details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #details__header {
+        text-align: center;
+    }
+
+    #details__card {
+        display: flex;
+        flex-direction: column;
+        background-color: #121212;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+    }
+
+    #details__item {
+        display: flex;
+        align-items: center;
+    }
+
+    #details__item img {
+        margin-right: 20px;
+    }
+
+    #details__item p{
+        color: #F6F6F6;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 274px;
+        height: 36px;
+    }
+
+    #details__amountContainer {
+        margin: 20px 0px;
+    }
+
+    #details__enrollContainer {
+        padding: 30px 0px;
+    }
+
+    #details__enrollButton {
+        padding: 10px 50px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: #121212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+    }
     
 }
-     
-@media only screen and (min-width: 480px) and (max-width: 767px) {
     
+    
+@media only screen and (min-width: 769px) and (max-width: 979px) {
+    
+    #details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #details__header {
+        text-align: center;
+    }
+
+    #details__card {
+        display: flex;
+        flex-direction: column;
+        background-color: #121212;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+    }
+
+    #details__item {
+        display: flex;
+        align-items: center;
+    }
+
+    #details__item img {
+        margin-right: 20px;
+    }
+
+    #details__item p{
+        color: #F6F6F6;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 274px;
+        height: 36px;
+    }
+
+    #details__amountContainer {
+        margin: 20px 0px;
+    }
+
+    #details__enrollContainer {
+        padding: 30px 0px;
+    }
+
+    #details__enrollButton {
+        padding: 10px 50px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: #121212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    
+}
+    
+    
+@media only screen and (min-width: 980px) and (max-width: 1024px) {
+    
+    #details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #details__header {
+        text-align: center;
+    }
+
+    #details__card {
+        display: flex;
+        flex-direction: column;
+        background-color: #121212;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+    }
+
+    #details__item {
+        display: flex;
+        align-items: center;
+    }
+
+    #details__item img {
+        margin-right: 20px;
+    }
+
+    #details__item p{
+        color: #F6F6F6;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 274px;
+        height: 36px;
+    }
+
+    #details__amountContainer {
+        margin: 20px 0px;
+    }
+
+    #details__enrollContainer {
+        padding: 30px 0px;
+    }
+
+    #details__enrollButton {
+        padding: 10px 50px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: #121212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+}
+    
+    
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    
+    #details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #details__header {
+        text-align: center;
+    }
+
+    #details__card {
+        display: flex;
+        flex-direction: column;
+        background-color: #121212;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+    }
+
+    #details__item {
+        display: flex;
+        align-items: center;
+    }
+
+    #details__item img {
+        margin-right: 20px;
+    }
+
+    #details__item p{
+        color: #F6F6F6;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 274px;
+        height: 36px;
+    }
+
+    #details__amountContainer {
+        margin: 20px 0px;
+    }
+
+    #details__enrollContainer {
+        padding: 30px 0px;
+    }
+
+    #details__enrollButton {
+        padding: 10px 50px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: #121212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+}
+  
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    #details {
+        position: relative;
+    }
+    
+    #details__header {
+        text-align: center;
+    }
+    
+    #details__card {
+        margin: 20px auto;  
+        background-color: #121212;
+        width: 1200px;
+        height: 250px;
+        border-radius: 16px;
+        display: flex;
+        gap: 150px;
+        padding: 30px 30px;
+    }
+    
+    #details__card p {
+    
+    }
+    
+    #details__item p{
+        color: #F6F6F6;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 274px;
+        height: 36px;
+    }
+    
+    .details__cardItems {
+        display: flex;
+        width: 490px;
+    }
+    
+    #details__item img {
+        margin-right: 20px;
+    }
+    
+    #details__item {
+        display: flex;
+        align-items: center;
+    }
+    
+    #details__amountImage {
+        position: absolute;
+        top: 30px;
+        left: -5px;
+    }
+    
+    #details__amountContainer {
+        position: relative;
+    }
+    
+    #details__enrollButton {
+        position: absolute;
+        top: 100px;
+        left: -50px;
+        width: 250px;
+        height: 60px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+        text-decoration: none;
+        color: #121212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    
+    #details__enrollContainer {
+        position: relative;
+    }
+    
+}
    
+@media only screen and (min-width: 1367px) {
     
-}
+    #details {
+        position: relative;
+    }
     
-@media only screen and (min-width: 768px) and (max-width: 979px) {
+    #details__header {
+        text-align: center;
+    }
+    
+    #details__card {
+        margin: 20px auto;  
+        background-color: #121212;
+        width: 1200px;
+        height: 250px;
+        border-radius: 16px;
+        display: flex;
+        gap: 150px;
+        padding: 30px 30px;
+    }
+    
+    #details__card p {
+    
+    }
+    
+    #details__item p{
+        color: #F6F6F6;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        width: 274px;
+        height: 36px;
+    }
+    
+    .details__cardItems {
+        display: flex;
+        width: 490px;
+    }
+    
+    #details__item img {
+        margin-right: 20px;
+    }
+    
+    #details__item {
+        display: flex;
+        align-items: center;
+    }
+    
+    #details__amountImage {
+        position: absolute;
+        top: 30px;
+        left: -5px;
+    }
+    
+    #details__amountContainer {
+        position: relative;
+    }
+    
+    #details__enrollButton {
+        position: absolute;
+        top: 100px;
+        left: -50px;
+        width: 250px;
+        height: 60px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+        text-decoration: none;
+        color: #121212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 16px;
+    }
+    
+    #details__enrollContainer {
+        position: relative;
+    }
     
 
-    
 }
-      
-@media only screen and (min-width: 980px) and (max-width: 1023px) {
     
-
-    
-}  
-    
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-    
-    
-    
-}
-      
-@media only screen and (min-width: 1200px) {
-    
-
-    
-}
-      
 @media print {
     
 
@@ -128,11 +522,11 @@
 @media speech {
     
     
+    
 }
     
     
 @media only screen and (min-width: 1200px) and (orientation : portrait) {
     
-
     
 }

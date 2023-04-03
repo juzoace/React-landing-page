@@ -4,6 +4,9 @@ import './App.css';
 import Header from "./components/header/header";
 import Section from './components/section/section';
 import Details from './components/details/details';
+import Testimonials from './components/testimonials/testimonials';
+import CallToAction from './components/callToAction/callToAction';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Header />
       <Section />
       <Details />
+      <Testimonials />
+      <CallToAction />
+      <Footer />
     </div>
   );
 }
