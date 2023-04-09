@@ -1,8 +1,85 @@
-@media only screen and (min-width: 0px) and (max-width: 319px) {
+/************* All devices in Portrait mode  ****************/
+
+
+/* Small screen mobile phone i.e Galaxy fold */
+@media only screen and (min-width: 0px) and (max-width: 320px) and (orientation: portrait) { 
+    #navBar {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        height: 70px;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        background-color: white;
+        z-index: 1000;
+        padding-top: 90px;
+        margin-top: -65px;
+        padding-bottom: 40px;
+    }
+
+    .logoDocplanner {
+        width: 179px;
+        height: 24px;
+        margin-left: 20px;
+    }
+
+    #navLinks {
+        display: none;
+    }
+
+    #navBar__Breadcrumb {
+        background-color: black;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding-left: 15px;
+        height: 45px;
+    }
+
     
+    .navBar__BreadcrumbLine {
+        width: 40px;
+        line-height: 10px;
+        color: white
+    }
+    
+    #navBar__BreadcrumbLineOne {
+        padding-top: -5px;
+    }
+
+    #navDropdown__itemContainer {
+        background-color: black;
+    }
+    
+    #navDropdown {
+        position: relative;
+        width: 100%;
+        padding-top: 80px;
+        background-color: black;
+        height: 200px
+    }
+
+    #navDropdown__itemContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin-top: 10px;
+    }
+
+    #navDropdown__itemContainer a {
+        text-decoration: none;
+        margin-top: 10px;
+        color: white;
+    }
+
+    #navDropdown__itemContainer a:hover {
+        color:aliceblue
+    }   
 }
 
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+/* Medium screen Mobile Phones Iphone */
+@media only screen and (min-width: 321px) and (max-width: 479px) and (orientation: portrait) {
 
     #navBar {
         display: flex;
@@ -14,6 +91,9 @@
         align-items: center;
         background-color: white;
         z-index: 1000;
+        padding-top: 90px;
+        margin-top: -65px;
+        padding-bottom: 40px;
     }
 
     .logoDocplanner {
@@ -76,9 +156,9 @@
     }
 
 }   
-    
-    
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+  
+/* Small tab screens */
+@media only screen and (min-width: 480px) and (max-width: 768px) and (orientation: portrait) {
     
     #navBar {
         display: flex;
@@ -90,6 +170,9 @@
         align-items: center;
         background-color: white;
         z-index: 1000;
+        padding-top: 55px;
+        margin-top: -60px;
+        padding-bottom: 40px;
     }
 
     .logoDocplanner {
@@ -98,6 +181,7 @@
     }
 
     #navLinks {
+        padding-top: 0px;
         display: none;
     }
 
@@ -124,11 +208,12 @@
     }
     
     #navDropdown {
+        margin-top: 40px;
         position: relative;
         width: 100%;
-        padding-top: 80px;
+        padding-top: 40px;
         background-color: black;
-        height: 200px
+        height: 150px
     }
 
     #navDropdown__itemContainer {
@@ -146,12 +231,13 @@
     }
 
     #navDropdown__itemContainer a:hover {
-        color:aliceblue
+        color:#666666;
     }
 
 }
-    
-@media only screen and (min-width: 769px) and (max-width: 979px) {
+
+/* Medium sized tab screens */
+@media only screen and (min-width: 769px) and (max-width: 979px) and (orientation: portrait) {
     
     #navBar {
         display: flex;
@@ -163,6 +249,9 @@
         align-items: center;
         background-color: white;
         z-index: 1000;
+        padding-top: 90px;
+        margin-top: -65px;
+        padding-bottom: 40px;
     }
 
     .logoDocplanner {
@@ -201,7 +290,7 @@
         width: 100%;
         padding-top: 80px;
         background-color: black;
-        height: 200px
+        height: 200px;
     }
 
     #navDropdown__itemContainer {
@@ -224,8 +313,8 @@
 
 }    
 
-
-@media only screen and (min-width: 980px) and (max-width: 1024px) {
+/* Large tab screens */
+@media only screen and (min-width: 980px) and (max-width: 1024px) and (orientation: portrait) {
     
     #navBar {
         display: flex;
@@ -237,6 +326,9 @@
         align-items: center;
         background-color: white;
         z-index: 1000;
+        padding-top: 90px;
+        margin-top: -55px;
+        padding-bottom: 40px;
     }
 
     .logoDocplanner {
@@ -297,9 +389,62 @@
     }
 
 }  
+
+/* Small laptop screens and extra large ipad Portrait mode*/
+@media only screen and (min-width: 1025px) and (max-width: 1199px) and (orientation: portrait) {
+
+    #navBar {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        background-color: white;
+        z-index: 1000;
+    }
     
-   
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    .logoDocplanner {
+        width: 179px;
+        height: 24px;
+        margin-left: 120px;
+    }
+    
+    #navLinks {
+        display: flex;
+        width: 360px;
+        justify-content: space-between;
+        margin-right: 150px;
+        align-items: center;
+    }
+    
+    #navBar__Breadcrumb {
+        display: none;
+    }
+
+    #navLinks a {
+        text-decoration: none;
+        color: #ABABAB;
+        font-size: 15px;
+        font-weight: 400;  
+    }
+    
+    #navButton {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 20px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid #666666;
+        border-radius: 6px;
+    }
+    
+}
+
+/* Normal sized laptop screen 15.6 inch screen*/
+@media only screen and (min-width: 1200px) and (max-width: 1366px) and (orientation: portrait) {
 
     #navBar {
         display: flex;
@@ -351,8 +496,286 @@
     
 }
     
-@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+/* Extra large screen i.e Tvs, projectors*/
+@media only screen and (min-width: 1367px) and (max-width: 1880px) and (orientation: portrait) {
+    
+    #navBar {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        z-index: 1000;
+    }
+    
+    .logoDocplanner {
+        width: 179px;
+        height: 24px;
+        margin-left: 120px;
+    }
+    
+    #navLinks {
+        display: flex;
+        width: 360px;
+        justify-content: space-between;
+        margin-right: 150px;
+        align-items: center;
+    }
+    
+    #navBar__Breadcrumb {
+        display: none;
+    }
 
+    #navLinks a {
+        text-decoration: none;
+        color: #ABABAB;
+        font-size: 15px;
+        font-weight: 400;  
+    }
+    
+    #navButton {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 20px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid #666666;
+        border-radius: 6px;
+    }
+
+}
+
+/* Super large screens in landscape mode */
+@media only screen and (min-width: 1881px) and (orientation: portrait) {
+
+}
+
+
+
+/**************** All devices in landscape mode  ********************/
+
+
+/* Phones */
+/* Small screen mobile phone landscape mode */
+@media only screen and (min-width: 0px) and (max-width: 320px) and (orientation: landscape) {   
+}
+
+
+/* Medium sized mobile phone i.e iphone xr xmax  : Landscape mode*/
+@media only screen and (min-width: 321px) and (max-width: 896px) and (orientation: landscape) {
+
+    #navBar {
+        display: flex;
+        justify-content: space-around;
+        gap: 250px;
+        height: 100px;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        background-color: white;
+        z-index: 1000;
+        padding-top: 55px;
+        margin-top: -55px;
+    }
+
+    .logoDocplanner {
+        width: 179px;
+        height: 24px;
+        margin-left: 20px;
+    }
+
+    #navLinks {
+        display: none;
+    }
+
+    #navBar__Breadcrumb {
+        background-color: black;
+        border-radius: 3px;
+        border: 1px solid black;
+        padding-left: 15px;
+        height: 45px;
+    }
+
+    
+    .navBar__BreadcrumbLine {
+        width: 40px;
+        line-height: 10px;
+        color: white
+    }
+    
+    #navBar__BreadcrumbLineOne {
+        padding-top: -5px;
+    }
+
+    #navDropdown__itemContainer {
+        background-color: black;
+    }
+    
+    #navDropdown {
+        position: relative;
+        width: 100%;
+        padding-top: 50px;
+        background-color: black;
+        height: 200px;
+    }
+
+    #navDropdown__itemContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin-top: 10px;
+    }
+
+    #navDropdown__itemContainer a {
+        text-decoration: none;
+        margin-top: 10px;
+        color: white;
+    }
+
+    #navDropdown__itemContainer a:hover {
+        color:aliceblue
+    }
+
+}
+
+
+/* Small tab screen */
+@media only screen and (min-width: 897px) and (max-width: 1024px) and (orientation: landscape) {
+    #navBar {
+        display: flex;
+        justify-content: space-around;
+        gap: 450px;
+        height: 100px;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        background-color: white;
+        z-index: 1000;
+        padding-top: 55px;
+        margin-top: -50px;
+    }
+
+    .logoDocplanner {
+        width: 179px;
+        height: 24px;
+        margin-left: 20px;
+    }
+
+    #navLinks {
+        display: none;
+    }
+
+    #navBar__Breadcrumb {
+        background-color: black;
+        border-radius: 3px;
+        border: 1px solid black;
+        padding-left: 15px;
+        height: 45px;
+    }
+
+    
+    .navBar__BreadcrumbLine {
+        width: 40px;
+        line-height: 10px;
+        color: white
+    }
+    
+    #navBar__BreadcrumbLineOne {
+        padding-top: -5px;
+    }
+
+    #navDropdown__itemContainer {
+        background-color: black;
+    }
+    
+    #navDropdown {
+        position: relative;
+        width: 100%;
+        padding-top: 50px;
+        background-color: black;
+        height: 200px;
+    }
+
+    #navDropdown__itemContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin-top: 10px;
+    }
+
+    #navDropdown__itemContainer a {
+        text-decoration: none;
+        margin-top: 10px;
+        color: white;
+    }
+
+    #navDropdown__itemContainer a:hover {
+        color:aliceblue
+    }
+}
+
+/* Medium tab screen */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape) {
+
+    #navBar {
+        display: flex;
+        justify-content: space-around;
+        gap: 400px;
+        height: 70px;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        background-color: white;
+        z-index: 1000;
+        padding-top: 90px;
+        margin-top: -55px;
+        padding-bottom: 40px;
+    }
+
+    .logoDocplanner {
+        width: 179px;
+        height: 24px;
+    }
+
+    #navLinks {
+        display: flex;
+        width: 360px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navLinks a {
+        text-decoration: none;
+        color: #ABABAB;
+        font-size: 15px;
+        font-weight: 400;  
+    }
+
+    #navButton {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 20px;
+        background-color: white;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid #666666;
+        border-radius: 6px;
+    }
+
+    #navBar__Breadcrumb {
+        display: none;
+    }
+
+} 
+
+/* Large tab screen */
+@media only screen and (min-width: 1281px) and (max-width: 1366px) and (orientation: landscape) {
     #navBar {
         display: flex;
         justify-content: space-between;
@@ -400,36 +823,35 @@
         border: 1px solid #666666;
         border-radius: 6px;
     }
-    
 }
-    
-@media only screen and (min-width: 1367px) {
-    
+
+/* Extra large tab screen OR flip Laptop in Landscape mode */
+@media only screen and (min-width: 1367px) and (max-width: 1880px) and (orientation: landscape ) {
     #navBar {
         display: flex;
-        justify-content: space-between;
-        height: 70px;
+        justify-content: space-around;
+        gap: 600px;
+        height: 120px;
         position: fixed;
         width: 100%;
         align-items: center;
         background-color: white;
         z-index: 1000;
     }
-    
+
     .logoDocplanner {
         width: 179px;
         height: 24px;
-        margin-left: 120px;
+        margin-left: 20px;
     }
-    
+
     #navLinks {
         display: flex;
         width: 360px;
         justify-content: space-between;
-        margin-right: 150px;
         align-items: center;
     }
-    
+
     #navBar__Breadcrumb {
         display: none;
     }
@@ -440,7 +862,7 @@
         font-size: 15px;
         font-weight: 400;  
     }
-    
+
     #navButton {
         font-size: 16px;
         line-height: 24px;
@@ -452,24 +874,10 @@
         border: 1px solid #666666;
         border-radius: 6px;
     }
+    
+}
 
-}
-    
-@media print {
-    
+/* Super large screens in landscape mode */
+@media only screen and (min-width: 1881px) and (orientation: landscape) {
 
-    
-}
-    
-    
-@media speech {
-    
-    
-    
-}
-    
-    
-@media only screen and (min-width: 1200px) and (orientation : portrait) {
-    
-    
 }

@@ -1,4 +1,45 @@
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+/************* All devices in Portrait mode  ****************/
+
+/* Small screen mobile phone i.e Galaxy fold */
+@media only screen and (min-width: 0px) and (max-width: 320px) and (orientation: portrait) {  
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        background: #E6E6E6;
+        height: 146px;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    #footer__ccnnectionContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer__connectionParagraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    #footer__connectionImageContainer {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .footer__connectionImage {
+        margin: 0 5px;
+    }  
+}
+
+/* Medium screen Mobile Phones Iphone */
+@media only screen and (min-width: 321px) and (max-width: 479px) and (orientation: portrait) {
     #footer {
         display: flex;
         justify-content: space-between;
@@ -34,7 +75,7 @@
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) and (orientation: portrait) {
     #footer {
         display: flex;
         justify-content: space-between;
@@ -69,44 +110,7 @@
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 979px) {
-
-    #footer {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        background: #E6E6E6;
-        height: 146px;
-        align-items: center;
-        padding: 0 80px;
-    }
-
-    #footer__ccnnectionContainer {
-        display: flex;
-        text-align: center;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-    }
-
-    #footer__connectionParagraph {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 12px;
-    }
-
-    #footer__connectionImageContainer {
-        background-color: #FFFFFF;
-        border-radius: 10px;
-    }
-
-    .footer__connectionImage {
-        margin: 0 5px;
-    }
-
-}
-
-@media only screen and (min-width: 980px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 979px) and (orientation: portrait) {
 
     #footer {
         display: flex;
@@ -143,7 +147,7 @@
 
 }
 
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+@media only screen and (min-width: 980px) and (max-width: 1024px) and (orientation: portrait) {
 
     #footer {
         display: flex;
@@ -180,7 +184,44 @@
 
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+@media only screen and (min-width: 1025px) and (max-width: 1199px) and (orientation: portrait) {
+
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: #E6E6E6;
+        height: 146px;
+        align-items: center;
+        padding: 0 80px;
+    }
+
+    #footer__ccnnectionContainer {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer__connectionParagraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    #footer__connectionImageContainer {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .footer__connectionImage {
+        margin: 0 5px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) and (orientation: portrait) {
         #footer {
             display: flex;
             justify-content: space-between;
@@ -215,7 +256,7 @@
         }
 }
 
-@media only screen and (min-width: 1367px) {
+@media only screen and (min-width: 1367px) and (orientation: portrait) {
     #footer {
         display: flex;
         justify-content: space-between;
@@ -248,4 +289,201 @@
     .footer__connectionImage {
         margin: 0 5px;
     }
+}
+
+
+/**************** All devices in landscape mode  ********************/
+
+
+/* Phones */
+/* Small screen mobile phone landscape mode */
+@media only screen and (min-width: 0px) and (max-width: 320px) and (orientation: landscape) {   
+}
+
+/* Medium sized mobile phone i.e iphone xr xmax  : Landscape mode*/
+@media only screen and (min-width: 321px) and (max-width: 896px) and (orientation: landscape) {
+
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: #E6E6E6;
+        height: 146px;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    #footer__ccnnectionContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer__connectionParagraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    #footer__connectionImageContainer {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .footer__connectionImage {
+        margin: 0 5px;
+    } 
+
+}
+
+/* Small tab screen */
+@media only screen and (min-width: 897px) and (max-width: 1024px) and (orientation: landscape) {
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: #E6E6E6;
+        height: 146px;
+        align-items: center;
+        padding: 0 80px;
+    }
+
+    #footer__ccnnectionContainer {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer__connectionParagraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    #footer__connectionImageContainer {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .footer__connectionImage {
+        margin: 0 5px;
+    }
+}
+
+/* Medium tab screen */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape) {
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: #E6E6E6;
+        height: 146px;
+        align-items: center;
+        padding: 0 80px;
+    }
+
+    #footer__ccnnectionContainer {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer__connectionParagraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    #footer__connectionImageContainer {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .footer__connectionImage {
+        margin: 0 5px;
+    }
+}
+
+/* Large tab screen */
+@media only screen and (min-width: 1281px) and (max-width: 1366px) and (orientation: landscape) {
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: #E6E6E6;
+        height: 146px;
+        align-items: center;
+        padding: 0 80px;
+    }
+
+    #footer__ccnnectionContainer {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer__connectionParagraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    #footer__connectionImageContainer {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .footer__connectionImage {
+        margin: 0 5px;
+    }
+}
+
+/* Extra large tab screen OR flip Laptop in Landscape mode */
+@media only screen and (min-width: 1367px ) and (max-width: 1880px) and (orientation: landscape ) {
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: #E6E6E6;
+        height: 146px;
+        align-items: center;
+        padding: 0 80px;
+    }
+
+    #footer__ccnnectionContainer {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer__connectionParagraph {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    #footer__connectionImageContainer {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .footer__connectionImage {
+        margin: 0 5px;
+    }
+}
+
+/* Super large screens in landscape mode */
+@media only screen and (min-width: 1881px) and (orientation: landscape) {
+
 }

@@ -7,8 +7,7 @@ function Details() {
         <>
             <main id="details">
                 <h1 id="details__header">All features for one price</h1>              
-                <div id="details__card">
-
+                <div id="details__card"> 
                     <div>
                         <div id="details__item">
                             <img src={tick} alt=""/> <p id="details__item">Introduction to software engineering</p>

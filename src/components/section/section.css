@@ -1,12 +1,96 @@
-
-@media only screen and (min-width: 0px) and (max-width: 319px) {
+/* Small sized mobile phone i.e galaxy fold */
+@media only screen and (min-width: 0px) and (max-width: 319px) and (orientation: portrait){
     
-}
-
-@media only screen and (min-width: 320px) and (max-width: 479px) {
     #section {
         margin: 50px 20px;
         padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #section__imageContainer {
+        display: none;
+    }
+
+
+    #section__buttonContainer {
+        padding-top: 30px;
+    }
+
+    .section__button {
+        text-decoration: none;
+        width: 100px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 15px 32px;
+        border-radius: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #section__button--enroll {
+        background-color: #1CFFAD;
+        color: #121212;
+    }
+
+    #section__button--contact {
+        display: none;
+    }
+
+}
+
+/* Medium sized mobile phone i.e iphone xr xmax */
+@media only screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+    #section {
+        margin: 50px 20px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #section__imageContainer {
+        display: none;
+    }
+
+
+    #section__buttonContainer {
+        padding-top: 30px;
+    }
+
+    .section__button {
+        text-decoration: none;
+        width: 100px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 15px 32px;
+        border-radius: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #section__button--enroll {
+        background-color: #1CFFAD;
+        color: #121212;
+    }
+
+    #section__button--contact {
+        display: none;
+    }
+}
+
+/* Small sized tab screens */
+@media only screen and (min-width: 480px) and (max-width: 768px) and (orientation: portrait) {
+    #section {
+        margin: 50px 20px;
+        padding-top: 90px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -43,58 +127,18 @@
         display: none;
     }
 }
-
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+ 
+/* Medium sized tab screens  */    
+@media only screen and (min-width: 769px) and (max-width: 979px) and (orientation: portrait) {
+    
     #section {
-        margin: 50px 20px;
+        margin: 60px 20px;
         padding-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-
-    #section__imageContainer {
-        display: none;
-    }
-
-
-    #section__buttonContainer {
-        padding-top: 30px;
-    }
-
-    .section__button {
-        text-decoration: none;
-        width: 100px;
-        border-radius: 6px;
-        font-weight: 500;
-        font-size: 18px;
-        padding: 15px 32px;
-        border-radius: 12px;
-        align-items: center;
-        text-align: center;
-    }
-
-    #section__button--enroll {
-        background-color: #1CFFAD;
-        color: #121212;
-    }
-
-    #section__button--contact {
-        display: none;
-    }
-}
-    
-    
-@media only screen and (min-width: 769px) and (max-width: 979px) {
-    
-    #section {
-        margin: 50px 20px;
-        padding-top: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        padding-top: 100px;
     }
 
     #section__imageContainer {
@@ -128,9 +172,9 @@
     }
     
 }
-    
-    
-@media only screen and (min-width: 980px) and (max-width: 1024px) {
+  
+/* Large tab screens */
+@media only screen and (min-width: 980px) and (max-width: 1024px) and (orientation: portrait) {
     
     #section {
         margin: 50px 20px;
@@ -139,6 +183,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding-top: 100px;
     }
 
     #section__buttonContainer {
@@ -213,15 +258,14 @@
     }
     
 }
-    
-    
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+
+/* Small laptop screens and extra large ipad Portrait mode*/
+@media only screen and (min-width: 1025px) and (max-width: 1199px) and (orientation: portrait) {
     
     
 }
     
-    
-@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+@media only screen and (min-width: 1200px) and (max-width: 1366px) and (orientation: portrait) {
     #section {
         padding-top: 150px;
     }
@@ -342,7 +386,8 @@
     }
     
 }
-  
+ 
+/* Extra large screen i.e Tvs, projectors*/
 @media only screen and (min-width: 1367px) {
     #section {
         padding-top: 150px;
@@ -463,23 +508,469 @@
         top: 0px; 
     }
 }
-    
-    
-@media print {
-    
+  
 
+
+/**************** All devices in landscape mode  ********************/
+
+/* Phones */
+/* Small screen mobile phone landscape mode */
+@media only screen and (min-width: 0px) and (max-width: 320px) and (orientation: landscape) {   
+}
+
+/* Medium sized mobile phone i.e iphone xr xmax  : Landscape mode*/
+@media only screen and (min-width: 321px) and (max-width: 896px) and (orientation: landscape) {
+
+    #section {
+        margin: 30px 20px;
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #section__imageContainer {
+        display: none;
+    }
+
+
+    #section__buttonContainer {
+        padding-top: 30px;
+    }
+
+    .section__button {
+        text-decoration: none;
+        width: 100px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 15px 32px;
+        border-radius: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #section__button--enroll {
+        background-color: #1CFFAD;
+        color: #121212;
+    }
+
+    #section__button--contact {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 897px) and (max-width: 1024px) and (orientation: landscape) {
+    #section {
+        margin: 20px 20px;
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #section__imageContainer {
+        display: none;
+    }
+
+
+    #section__buttonContainer {
+        padding-top: 30px;
+    }
+
+    .section__button {
+        text-decoration: none;
+        width: 100px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 15px 32px;
+        border-radius: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #section__button--enroll {
+        background-color: #1CFFAD;
+        color: #121212;
+    }
+
+    #section__button--contact {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) and (orientation: landscape) {
+    #section {
+        padding-top: 150px;
+    }
     
+    #section__buttonContainer {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    #section__header {
+        width: 785px;
+        height: 100px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 785px;
+        height: 100px;
+        line-height: 42px;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #section__paragraph {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 16px;
+        color: #999999;
+        text-align: center;
+    }
+    
+    .section__button {
+        text-decoration: none;
+        width: 250px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 15px 32px;
+        border-radius: 12px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #section__button--enroll {
+        background-color: #1CFFAD;
+        color: #121212;
+    }
+    
+    #section__button--contact {
+        background-color: #333333;
+        color: #ffffff
+    }
+    
+    #section__imageContainer {
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #section__imageOne {
+        position: absolute;
+        width: 251.4px;
+        height: 180px;
+        left: 25px;
+        top: 50px;
+        border-radius: 12px;
+    }
+    
+    #section__imageTwo {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 295px;
+        top: 50px;
+        border-radius: 12px;
+    }
+    
+    #section__ladyPhoto {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 565px;
+        top: 105px;
+        border-radius: 12px;
+    }
+    
+    #section__imageThree {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 1035px;
+        top: 120px;
+    }
+    
+    #section__imageFour {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 765px;
+        top: 50px;
+    }
+    
+    #section__imageFive {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 1235px;
+        top: 0px; 
+    }
+}
+
+/* Large tab screen */
+@media only screen and (min-width: 1281px) and (max-width: 1366px) and (orientation: landscape) {
+
+    #section {
+        padding-top: 150px;
+    }
+    
+    #section__buttonContainer {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    #section__header {
+        width: 785px;
+        height: 100px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 785px;
+        height: 100px;
+        line-height: 42px;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #section__paragraph {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 16px;
+        color: #999999;
+        text-align: center;
+    }
+    
+    .section__button {
+        text-decoration: none;
+        width: 250px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 15px 32px;
+        border-radius: 12px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #section__button--enroll {
+        background-color: #1CFFAD;
+        color: #121212;
+    }
+    
+    #section__button--contact {
+        background-color: #333333;
+        color: #ffffff
+    }
+    
+    #section__imageContainer {
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #section__imageOne {
+        position: absolute;
+        width: 251.4px;
+        height: 180px;
+        left: 25px;
+        top: 50px;
+        border-radius: 12px;
+    }
+    
+    #section__imageTwo {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 295px;
+        top: 50px;
+        border-radius: 12px;
+    }
+    
+    #section__ladyPhoto {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 565px;
+        top: 105px;
+        border-radius: 12px;
+    }
+    
+    #section__imageThree {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 1035px;
+        top: 120px;
+    }
+    
+    #section__imageFour {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 765px;
+        top: 50px;
+    }
+    
+    #section__imageFive {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 1235px;
+        top: 0px; 
+    }
+
 }
     
+/* Extra large tab screen OR flip Laptop in Landscape mode */
+@media only screen and (min-width: 1367px ) and (max-width: 1880px) and (orientation: landscape ) {
+    #section {
+        padding-top: 150px;
+    }
     
-@media speech {
+    #section__buttonContainer {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
     
+    #section__header {
+        width: 785px;
+        height: 100px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 785px;
+        height: 100px;
+        line-height: 42px;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
     
+    #section__paragraph {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 16px;
+        color: #999999;
+        text-align: center;
+    }
     
+    .section__button {
+        text-decoration: none;
+        width: 250px;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 15px 32px;
+        border-radius: 12px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #section__button--enroll {
+        background-color: #1CFFAD;
+        color: #121212;
+    }
+    
+    #section__button--contact {
+        background-color: #333333;
+        color: #ffffff
+    }
+    
+    #section__imageContainer {
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #section__imageOne {
+        position: absolute;
+        width: 251.4px;
+        height: 180px;
+        left: 25px;
+        top: 50px;
+        border-radius: 12px;
+    }
+    
+    #section__imageTwo {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 295px;
+        top: 50px;
+        border-radius: 12px;
+    }
+    
+    #section__ladyPhoto {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 565px;
+        top: 105px;
+        border-radius: 12px;
+    }
+    
+    #section__imageThree {
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 1035px;
+        top: 120px;
+    }
+    
+    #section__imageFour {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 765px;
+        top: 50px;
+    }
+    
+    #section__imageFive {
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 1235px;
+        top: 0px; 
+    }
 }
     
-    
-@media only screen and (min-width: 1200px) and (orientation : portrait) {
-    
-    
-}
+/* Super large screens in landscape mode */
+@media only screen and (min-width: 1881px) and (orientation: landscape) {
+
+} 

@@ -11,7 +11,7 @@ function Header() {
     }
     return (
         <>
-            <header>
+            <header id="header">
                 <nav id="navBar">
                     <div className="textLogo">
                         <img className="logoDocplanner" src={navLogo} alt="octa8Academy"/>
@@ -36,7 +36,7 @@ function Header() {
                         <a href="#">Contact Us</a>
                     </div>
                 </div>
-                : <div>Hello</div>    
+                : <div></div>    
             }
                 
             </header>
